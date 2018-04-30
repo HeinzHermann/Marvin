@@ -1,0 +1,265 @@
+2.3
+
+Daylie Scrums (Tag 1 bis Tag 10)
+
+Realzeit (19:27 Uhr)
+
+Tag 1 (08:00 Uhr) 01. Mai 2017
+
+
+Progammierer 1, 2, 3 (Abkürzungen P1, P2, P3)
+
+Tag 1:
+
+P1, P2, P3:
+Letzer Arbeitstag:
+Nicht vorhanden
+
+Ziele:
+Konzipiere Programmstruktur und beginne
+erste Teile der Mitgliederverwaltung zu programmieren
+
+
+Tag2:
+
+P1:
+Letzer Arbeitstag:
+keine Probleme
+
+Ziele:
+Ausbau von Mitgleiderverwaltung
+
+P2:
+Letzer Arbeitstag:
+keine Probleme
+
+Ziele:
+Testet bisherige Features der Mitgliederverwaltung
+
+P3:
+Letzer Arbeitstag:
+keine Probleme
+
+Ziele:
+Designed Dateiformat für Abrechnungen
+
+Tag 3:
+
+P1:
+Letzter Arbeitstag:
+keine Probleme
+
+Ziele:
+Ausbau der Mitgliederverwaltung
+Beginn mit Programmierung von GUI
+
+P2:
+Ziele:
+Erstelle Bugliste und Durchführung weiterer Tests
+
+Letzter Arbeitstag:
+Leicht zu fixende Bugs bei Mitgliederverwalung gefunden
+
+P3:
+Letzter Arbeitstag:
+keine Probleme
+
+Ziele:
+Stelle Desingformat fertig
+Implementiere Im- und Export 
+
+
+Tag 4:
+
+P1:
+Letzter Arbeitstag:
+Leichte Probleme mit Implmentierung von GUI
+
+Ziele:
+Beheben von Bugs
+Weiterarbeiten an GUI
+
+P2:
+Letzter Arbeitstag:
+Weitere Bugs im Dateiformat gefunden
+
+Ziele:
+Weitere Tests für GUI
+
+P3:
+Letzer Arbeitstag:
+Im- und Export nicht mehr funktionsähig, da
+Dateiformat nicht optimal
+
+Ziele:
+Anpassen des Dateiformats und Überarbeiten
+von Im- und Export
+
+Tag 5:
+
+P1:
+Letzter Arbeitstag:
+keine Probleme
+
+Ziele:
+Fixen restlicher Bugs in Mitgliederverwaltung
+und GUI, sowie finale Tests
+
+P2:
+Letzter Arbeitstag:
+Bugs in Dateiformat gefunden, keine neuen
+Bugs in Im- und Export gefunden. Liste mit
+Bugs an Kollegen weitergegeben
+
+Ziele:
+Finalisierung von Dateiformat
+
+P3:
+Letzter Arbeitstag:
+Import und Export überarbeitet und
+Bugs aus Dateiformat gefixt
+
+Ziele:
+Finalisierung von Im- und Export,
+sowie Beginn mit Testphase
+
+Tag 6:
+
+P1:
+Letzter Tag:
+Mitgliederverwaltung finalisiert
+User ID 1 funktioniert fehlerfrei
+Finale Version
+
+Ziele:
+Beginn von autormatisierter Abbuchung
+
+P2:
+Letzter Arbeitstag:
+Design von Dateiformat optimiert und fertiggestellt
+keine Probleme
+
+Ziele:
+Programmierung von Eingabemöglichekeit
+
+P3:
+Letzter Arbeitstag:
+Im- und Export funktionieren fehlerfrei
+keine Probleme
+
+Ziele:
+Programmiere Erstellung von Rechnung von Transaktionen
+Beginne mit Testpahse von bisherigen Features
+
+Tag 7:
+
+P1:
+Letzter Arbeitstag:
+Grundzüge von autoatisierter Abbuchung implementiert
+keine Probleme
+
+Ziele:
+Programmierung weiterer Features bei automatisierter Abbuchung
+
+P2:
+Letzer Arbeitstag:
+Programmierung von Eingabemöglichkeiten
+keine Probleme
+
+Ziele:
+Weiterhin Programmierung von Eingabemöglichkeiten
+
+P3:
+Letzter Arbeitstag:
+Programmierung von Erstellung von Rechnngen und Transaktionen
+Einen schwerwiegenden Bug gefunden, muss in kommenden Tagen
+gefixt werden
+
+Tag 8:
+
+P1:
+Letzter Arbeitstag:
+Programmierung der automatischen Abbuchung
+keine Probleme
+
+Ziele:
+Programmierung der finalen Version
+Anschließende Testphase
+
+P2:
+Letzter Arbeitstag:
+Programmeierung der Eingabemöglichkeiten
+Guter Fortschritt mit dem Projekt
+
+Ziele:
+Programmierung der finalen Version
+Anschließende Testphase
+
+P3:
+Letzter Arbeitstag:
+Programmierung der Rechnungen von Transaktionen mit
+anschließenden Tests. Viele Bugs gefunden
+
+Ziele:
+Fixen der gefundenen Bugs, sowie Implementierung in
+GUI von ID 1
+
+Tag 9:
+
+P1:
+Letzter Arbeitstag:
+Finale Programmierschritte von automatisierter Abbuchung
+schnell zu fixende Bugs gefunden und behoben
+
+Ziele:
+Implementierung von automatischer Abbuchung in GUI
+von ID 1, sowie anschließende Testphase
+
+P2:
+Letzt Arbeitstag:
+Programmierung der Eingabemöglichekeit mit anschließender
+Testphase. Keine Bugs gefunden
+
+Ziele:
+Implementierung der Eingabemöglichkeit in GUI von ID 1
+
+P3:
+Letzter Arbeitstag:
+Implemntierung von Rechnungen von Transaktionen in GUI
+von ID 1, dabei sind Fehler aufgetreten.
+
+Ziele:
+Überarbeitung von Implementierungskonzept
+Weiter Arbeiten an Implementierung in GUI
+
+Tag 10:
+
+P1:
+Letzter Arbeitstag:
+Implementierung funktionierte gut
+keine Probleme
+
+Ziele:
+Finalisierung der Implementierung
+
+P2:
+Letzter Arbeitstag:
+Implementierung lief glatt
+keine Probleme
+
+Ziele:
+Finale Implementierung und beginn finaler
+Testphase
+
+P3:
+Letzter Arbeitstag:
+Weiterhin Probleme bei Implementierung
+Neues Konzept funktioniert besser, aber
+noch nicht fehlerfrei
+
+Ziele:
+Weitere Implementierungsversuche
+Eventuell hilfe von P1 und/oder P2 nötig
+
+
+Realzeit Ende (20:52 Uhr)
