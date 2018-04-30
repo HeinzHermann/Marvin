@@ -1,0 +1,42 @@
+2.5 
+
+Sprint – Review
+Dokumentation – Feedback der Vereinsvorstände:
+
+Zu ID6: Es wäre gut, wenn es für die Buchhaltung eine zentralisierte Seite hätte, auf der der Status von regelmäßigen Zahlungen aller Mitglieder eingesehen werden könnte.
+Zu ID7: Außerdem sollten die Nutzer automatisch eine Mahnung als Email bekommen, wenn sie eine Zahlung vergessen/nicht getätigt haben
+Zu ID9: Es wäre auch gut, wenn es eine Möglichkeit gebe seine Bankdaten anzugeben, sodass das System dann automatisch alle ausstehenden Zahlungen einzieht
+Zu vorherigem Review: Die Anmerkungen, die ich letztes Mal gemacht habe wurden ja alle umgesetzt. Allerdings bin ich noch nicht zufrieden wie umständlich es ist eine Rückbuchung durchzuführen. Das sollte man doch mit einem Knopfdruck umsetzen können oder?
+
+
+Sprint – Retrospektive
+
+Mehr Zeit für Tests:
+Die extra Zeit fürs Testen war sehr sinnvoll. Viele Fehler konnten so gefunden und Konzepte besser überarbeitet werden, sodass die Software stabiler und ressourcensparender designed ist.
+
+Mehr Zeit für Implementierungen:
+Die anfänglichen Problematiken mit der Implementierung wurden dadurch eingedämmt.
+
+Aufgabenverteilung nach Erfahrungswerten der Programmierer richten:
+Die Programmierer konnten ihrer Spezialisierung nach bessere und schnellere Erfolge beim Programmierung nachweisen, als dies zuvor der Fall gewesen ist.
+Da die Aufgabenverteilung nicht immer funktioniert, müssen auch Aufgaben erledigt werden, die nicht in die Spezialgebiete der entsprechenden Programmierer passen.
+
+Ein Entwickler sollte an größeren Aufgaben(-paketen) arbeiten:
+Die Programmierer konnten sich somit besser in ihre momentane Aufgabe hineinarbeiten und -denken, wodurch sich Konzepte verbesserten und Aufgaben auch konzentrierter erledigt wurden.
+
+
+Dokumentation von Bugs:
+Die Dokumentation war sehr hilfreich, da Bugs sehr schnell gefunden wurden und weitere Fehler durch die dokumentierte Erfahrung vorgebeugt wurden.
+Bugs, die in eine ähnliche Klasse fallen, sollten nicht mehr ausführlich dokumentiert werden, um Zeit zu sparen.
+
+Pair-Programming:
+Programmierer 1 und 2 arbeiten gut zusammen
+Programmierer 1 und 3 konnten weniger gut zusammenarbeiten
+Schlussendlich lässt sich sagen, dass Pair-Programming zur Vermeidung von Fehlern und Bugs führt, die Arbeitsgeschwindigkeit wird dadurch etwas gedrosselt, was sich aber im Endeffekt zu einer schnelleren Fertigstellung der Software und einer größeren Stabilität und Sicherheit führt. Zudem konnten die Programmierer ein wenig voneinander lernen, wenn die Zusammenarbeit gut funktioniert - nicht jeder kann mit jedem.
+Pair-Programming sollte nur noch für kompliziertere Aufgaben genutzt werden, da die Zeitersparnis bei kleineren Aufgaben nicht gegeben war.
+
+Freie Zeit für diverse Problematiken:
+Die freiverfügbare Zeit konnte sehr gut genutzt werden und es war sehr hilfreich, die Zeit flexibler nutzen zu können. So konnte sich auf Problematiken konzentriert werden, ohne den aktuellen Zeitplan zu verletzen.
+
+Versionierungssoftware:
+Es wurde sich für Git entschieden, da mehr Erfahrung mit der Arbeit mit Git vorliegt.
