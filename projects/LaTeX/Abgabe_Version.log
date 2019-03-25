@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=latex 2019.3.25)  25 MAR 2019 21:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=latex 2019.3.25)  26 MAR 2019 00:49
 entering extended mode
 **./Abgabe_Version.tex
 (Abgabe_Version.tex
@@ -600,11 +600,6 @@ File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 \Gin@req@height=\dimen150
 \Gin@req@width=\dimen151
 ))
-(S:\Programming\LaTeX\MiKTeX\tex/latex/cite\cite.sty
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 332.
-Package: cite 2015/02/27  v 5.5
-)
 (S:\Programming\LaTeX\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
 
@@ -622,17 +617,6 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 (S:\Programming\LaTeX\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-
-! Package biblatex Error: Incompatible package 'cite'.
-
-See the biblatex package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.167 \blx@packageincompatibility
-                                 
-The 'cite' package and biblatex are incompatible.
-
 \c@tabx@nest=\count291
 \c@listtotal=\count292
 \c@listcount=\count293
@@ -689,6 +673,7 @@ The 'cite' package and biblatex are incompatible.
 \c@mincompwidth=\count334
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
+
 (S:\Programming\LaTeX\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
@@ -857,24 +842,24 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (Abgabe_Version.aux)
 \openout1 = `Abgabe_Version.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 29.
+LaTeX Info: Redefining \selectfont on input line 26.
 \AtBeginShipoutBox=\box50
-Package hyperref Info: Link coloring OFF on input line 29.
+Package hyperref Info: Link coloring OFF on input line 26.
 
 (S:\Programming\LaTeX\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -884,9 +869,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count414
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
 
 (Abgabe_Version.out) (Abgabe_Version.out)
 \@outlinefile=\write5
@@ -898,7 +883,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           You can avoid loading `bookmark' with KOMA-Script option
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message with `\usepackage{bookmark}'
-(scrartcl)           before \begin{document} on input line 29.
+(scrartcl)           before \begin{document} on input line 26.
 
 (S:\Programming\LaTeX\MiKTeX\tex/latex/oberdiek\bookmark.sty
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
@@ -919,93 +904,103 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Abgabe_Version.bbl' found.
 
 (Abgabe_Version.bbl)
-Package biblatex Info: Reference section=0 on input line 29.
-Package biblatex Info: Reference segment=0 on input line 29.
-Package scrbase Info: activating ngerman \figurename on input line 29.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 31.
+Package biblatex Info: Reference section=0 on input line 26.
+Package biblatex Info: Reference segment=0 on input line 26.
+Package scrbase Info: activating ngerman \figurename on input line 26.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 28.
  (S:\Programming\LaTeX\MiKTeX\tex/latex/base\t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 31.
+LaTeX Font Info:    Try loading font information for U+msa on input line 28.
 
 (S:\Programming\LaTeX\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 31.
+LaTeX Font Info:    Try loading font information for U+msb on input line 28.
 
 (S:\Programming\LaTeX\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 33--36
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--36
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
 
  []
 
 
-LaTeX Warning: Citation 'testing' on page 1 undefined on input line 44.
+LaTeX Warning: Citation 'wikiart' on page 1 undefined on input line 41.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 47.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 44.
 (S:\Programming\LaTeX\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
- [1
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
+
+ []
+
+[1
 
 
 ]
-Overfull \hbox (201.0663pt too wide) in paragraph at lines 66--84
-[][] 
+Underfull \hbox (badness 7344) in paragraph at lines 69--70
+\T1/cmr/m/n/10.95 he auch gol-de-ner
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+Overfull \hbox (5.57137pt too wide) in paragraph at lines 79--80
+[]\T1/cmr/m/n/10.95 Einfachsummenformel| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--118
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
 
-Underfull \hbox (badness 4353) in paragraph at lines 132--132
+Underfull \hbox (badness 4353) in paragraph at lines 130--130
   [][][][][]\T1/cmr/m/n/9 Ihrer Wahl - Sie kön-nen auch das Pa-ket mwe la-den u
 nd als in in-clu-de-gra-phics den
  []
 
 File: example-image.eps Graphic file (type eps)
 <example-image.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 144--148
+Underfull \hbox (badness 10000) in paragraph at lines 142--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--153
+Underfull \hbox (badness 10000) in paragraph at lines 147--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--153
+Underfull \hbox (badness 10000) in paragraph at lines 147--151
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 154--158
+Underfull \hbox (badness 10000) in paragraph at lines 152--156
 
  []
 
@@ -1013,7 +1008,7 @@ File: example-image.eps Graphic file (type eps)
 <example-image.eps>
 File: example-image.eps Graphic file (type eps)
  <example-image.eps>
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 160--166
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 158--164
 []$[]$ $[]$ 
  []
 
@@ -1025,15 +1020,19 @@ Overfull \hbox (2.42162pt too wide) in paragraph at lines 160--166
 \tf@lof=\write7
 \openout7 = `Abgabe_Version.lof'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
- [4]
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 177.
+
+
+LaTeX Warning: Empty bibliography on input line 173.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
+[4]
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 175.
 \BKM@file=\write8
 \openout8 = `Abgabe_Version.out.ps'.
 
  (Abgabe_Version.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 177.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 175.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `Abgabe_Version.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1048,15 +1047,15 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'Abgabe_Version.run.xml'.
 \openout1 = `Abgabe_Version.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 177.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 25421 strings out of 492946
- 461940 string characters out of 3135578
- 1108524 words of memory out of 3000000
- 29091 multiletter control sequences out of 15000+200000
+ 25337 strings out of 492946
+ 460842 string characters out of 3135578
+ 1107573 words of memory out of 3000000
+ 29010 multiletter control sequences out of 15000+200000
  553940 words of font info for 82 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  45i,12n,71p,9095b,2191s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Abgabe_Version.dvi (4 pages, 20460 bytes).
+Output written on Abgabe_Version.dvi (4 pages, 20532 bytes).

@@ -1,5 +1,8 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'text_bib.blg'
-[46] biber-MSWIN64:315> INFO - === 
-[457] Utils.pm:209> ERROR - Cannot find control file 'text_bib.bcf'! - Did latex run successfully on your .tex file before you ran biber?
-[458] Biber.pm:114> INFO - ERRORS: 1
+[47] biber-MSWIN64:315> INFO - === 
+[65] Utils.pm:124> DEBUG - Looking for file 'text_bib.bcf' via kpsewhich
+[449] Utils.pm:130> DEBUG - kpsewhich returned error:  (Inappropriate I/O control operation)
+[449] Utils.pm:149> DEBUG - Could not find 'text_bib.bcf' via kpsewhich
+[449] Utils.pm:209> ERROR - Cannot find control file 'text_bib.bcf'! - Did latex run successfully on your .tex file before you ran biber?
+[450] Biber.pm:114> INFO - ERRORS: 1

@@ -13,14 +13,11 @@
 \usepackage{lipsum}
 \usepackage{mwe}
 \usepackage{graphicx}
-\usepackage{cite}
+%\usepackage{cite}
 \usepackage[backend=biber]{biblatex}
-\bibliography{text_bib}
-
+\bibliography{text_bib.bib}
 
 \renewcaptionname{ngerman}{\figurename}{Abb.}
-
-
 
 \title{Ein Dokument zum Üeben}
 \author{Marvin Glaser, 4424114}
@@ -41,7 +38,7 @@
     
  \begin{itemize}
      
- \item[] Diese Definition ist dem zugehörigen Wikipedia-Artikel \cite{testing}
+ \item[] Diese Definition ist dem zugehörigen Wikipedia-Artikel \cite{wikiart}
  entnommen.\newline Mit \LaTeX{} kann man u.a. folgende Sachen machen:
  
  \item Aufzählungen und Auflistungen
@@ -59,16 +56,17 @@
  \end{itemize}\par
  
 Eher schlechter Stil ist {\tiny im Übrigen}, {\Huge ständig} die {\Large Schriftgröße} zu ändern oder Text will{\Huge kürli}ch {\itshape kursiv}, \textbf {fett}, \underline{unterstrichen} oder Ko\underline{m\textbf{bi}{\itshape na}t\textbf{io}n}en daraus zu setzen.
+\newline
 
 \newpage
 
 \begin{table}
-\begin{tabular}{c | c | l}
+\begin{tabular}{c | c | p{3,5cm}}
  Ein mathematischer Ausdruck & Leicht verändert & Bemerkungen \\
  \hline
  \tiny{$\frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + ...}}}}$} % groesse anpassen
  & \large{$\frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + ...}}}} $} % groesse anpassen
- & ein Kettenbruch, si\-ehe \newline auch \glqq goldener Schnitt \grqq , meist bezeichnet mit $\phi$  \\
+ & ein Kettenbruch, siehe auch \glqq goldener Schnitt \grqq , meist bezeichnet mit $\phi$  \\
  
  
  \hline
@@ -76,16 +74,15 @@ Eher schlechter Stil ist {\tiny im Übrigen}, {\Huge ständig} die {\Large Schri
  & 
  & siehe auch Hauptsatz der Differenzial- und In\-tegralrechnung \\
  \hline
- $1 + 2 + ... + n = \sum_{i = 1}^{n} i = \frac{n\cdot(n + 1)}{2}$
- &
+
+ \multicolumn{2}{c}{$1 + 2 + ... + n = \sum_{i = 1}^{n} i = \frac{n\cdot(n + 1)}{2}$}
  & Einfachsummenformel\\
- \hline
+ \cline{2-3}
 \end{tabular}
 
  \caption{Eine Tabelle mit mathematischen Ausdr\"ucken}
  \label{table1}
 \end{table}
-
 \section{Der Mathemodus, Tabellen \& mehr}
 
 %Umlaute and shit  Ä/ä, Ö/ö, Ü/ü  ß
@@ -94,7 +91,7 @@ Neben den Formeln in \hyperref[table1]{Tabelle 1} ein paar weitere Sachen im Mat
 
 \begin{itemize}
  
- \item Abschnittsweise definierte Funktionen \newline
+ \item Abschnittsweise definierte Funktionen
  \begin{center}
  $
  f(x) = \begin{cases}
@@ -121,6 +118,7 @@ Zun\"achst ersteres mit dem Befehl \textbackslash{}blindmathtrue und
 \newline
 
 \textbf{Bemerkung 2.} Und dann nutzen wir das lipsum-Paket und den Befehl \textbackslash lipsum[2]
+\newline
 \newpage
 
 \lipsum[2]
@@ -172,6 +170,6 @@ der figure-Umgebung. Dabei werden die captions aber nummeriert. Stattdessen benu
 
 \listoffigures
 
-%\bibliographystyle{plain}
+\printbibliography
 
 \end{document}
