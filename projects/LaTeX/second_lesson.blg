@@ -1,0 +1,9 @@
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'second_lesson.blg'
+[25] biber:313> INFO - === Mi Mär 13, 2019, 11:48:32
+[49] Biber.pm:371> INFO - Reading 'second_lesson.bcf'
+[123] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[132] Utils.pm:169> WARN - The file 'second_lesson.bcf' does not contain any citations!
+[140] bbl.pm:617> INFO - Writing 'second_lesson.bbl' with encoding 'UTF-8'
+[141] bbl.pm:720> INFO - Output to second_lesson.bbl
+[141] Biber.pm:110> INFO - WARNINGS: 1
