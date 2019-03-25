@@ -13,6 +13,10 @@
 \usepackage{lipsum}
 \usepackage{mwe}
 \usepackage{graphicx}
+\usepackage{cite}
+\usepackage[backend=biber]{biblatex}
+\bibliography{text_bib}
+
 
 \renewcaptionname{ngerman}{\figurename}{Abb.}
 
@@ -37,7 +41,7 @@
     
  \begin{itemize}
      
- \item[] Diese Definition ist dem zugehörigen Wikipedia-Artikel 1 %hier REFERENZ einfuegen!!
+ \item[] Diese Definition ist dem zugehörigen Wikipedia-Artikel \cite{testing}
  entnommen.\newline Mit \LaTeX{} kann man u.a. folgende Sachen machen:
  
  \item Aufzählungen und Auflistungen
@@ -108,7 +112,7 @@ Neben den Formeln in \hyperref[table1]{Tabelle 1} ein paar weitere Sachen im Mat
 \textbf{Bemerkung 1.} Um das Dokument etwas größer zu machen, f\"ugen wir an dieser Stelle mithilfe
 der Pakete \textit{blindtext} \footnote{Die ausf\"uhrliche Dokumentation des blindtext Paketes findet man \"ubrigens
 \href{http://tug.ctan.org/tex-archive/macros/latex/contrib/blindtext/blindtext.pdf}{hier}.} \textit{libsum} Blindtext ein.
-\footnote{Sollte bei Ihnen nicht der gleiche Text entstehen, ist das nicht schlimm = das Dokument muss am Schluss nicht v\"ollig exakt wie das Original sein.}
+\footnote{Sollte bei Ihnen nicht der gleiche Text entstehen, ist das nicht schlimm - das Dokument muss am Schluss nicht v\"ollig exakt wie das Original sein.}
 Zun\"achst ersteres mit dem Befehl \textbackslash{}blindmathtrue und
 \textbackslash{}blindtext:\newline
 
@@ -125,7 +129,7 @@ Zun\"achst ersteres mit dem Befehl \textbackslash{}blindmathtrue und
 \noindent \textbf{Bemerkung 3.} Im Quellcode folgt nun ein eingef\"ugtes Bild
 \footnote{Ihrer Wahl - Sie k\"onnen auch das Paket mwe
 laden und als in includegraphics den \glqq Dateinamen\grqq \textit{example-image} benutzen - das Ergebnis sehen Sie hier im
-tweiten Bild von }% \href[dualpic]{Abb. 2}}
+tweiten [sic] Bild von \hyperref[abb2]{Abb. 2}}
 (dessen Breite gerade $\frac{3}{4}$, also dem 0,75-fachen der Textbreite \textbackslash textwidth entspricht) in einer figure-Umgebung. Wo das dann letztlich erscheint, sind wir alle gespannt.
 
  
@@ -160,7 +164,7 @@ der figure-Umgebung. Dabei werden die captions aber nummeriert. Stattdessen benu
     \includegraphics[width=\textwidth]{example-image}
 \end{minipage}
 
-\caption{Zwei Bilder nebeneinander}{Zwei Bilder nebeneinadner}
+\caption{Zwei Bilder nebeneinadner}
 \label{abb2}
 \end{figure}
 
@@ -168,5 +172,6 @@ der figure-Umgebung. Dabei werden die captions aber nummeriert. Stattdessen benu
 
 \listoffigures
 
+%\bibliographystyle{plain}
 
 \end{document}
