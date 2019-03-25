@@ -9,6 +9,12 @@
 \usepackage{endnotes}
 %Umlaute and shit  Ä/ä, Ö/ö, Ü/ü  ß
 \usepackage{hyperref}
+\usepackage{blindtext}
+\usepackage{lipsum}
+\usepackage{mwe}
+\usepackage{graphicx}
+
+\renewcaptionname{ngerman}{\figurename}{Abb.}
 
 
 
@@ -52,6 +58,7 @@ Eher schlechter Stil ist {\tiny im Übrigen}, {\Huge ständig} die {\Large Schri
 
 \newpage
 
+\begin{table}
 \begin{tabular}{c | c | l}
  Ein mathematischer Ausdruck & Leicht verändert & Bemerkungen \\
  \hline
@@ -70,7 +77,10 @@ Eher schlechter Stil ist {\tiny im Übrigen}, {\Huge ständig} die {\Large Schri
  & Einfachsummenformel\\
  \hline
 \end{tabular}
-\newline
+
+ \caption{Eine Tabelle mit mathematischen Ausdr\"ucken}
+ \label{table1}
+\end{table}
 
 \section{Der Mathemodus, Tabellen \& mehr}
 
@@ -84,7 +94,7 @@ Neben den Formeln in \hyperref[table1]{Tabelle 1} ein paar weitere Sachen im Mat
  \begin{center}
  $
  f(x) = \begin{cases}
-          (\frac{1}{2}) & \text{falls}\ x \in \mathbb{R} \textbackslash \mathbb{Q} \\
+          (\frac{1}{2}) & \text{falls}\ x \in \mathbb{R} \setminus \mathbb{Q} \\
           (\frac{1}{3} & \text{falls}\ x \in \mathbb{Q}
          \end{cases}
  $
@@ -96,16 +106,67 @@ Neben den Formeln in \hyperref[table1]{Tabelle 1} ein paar weitere Sachen im Mat
 
 
 \textbf{Bemerkung 1.} Um das Dokument etwas größer zu machen, f\"ugen wir an dieser Stelle mithilfe
-der Pakete \textit{blindtext}$^{\hyperref[blindtext]{2}}$ und \textit{libsum} Blindtext ein.
-$^{\hyperref[blind]{3}}$ Zun\"achst ersteres mit dem Befehl \textbackslash{}blindmathtrue und
+der Pakete \textit{blindtext} \footnote{Die ausf\"uhrliche Dokumentation des blindtext Paketes findet man \"ubrigens
+\href{http://tug.ctan.org/tex-archive/macros/latex/contrib/blindtext/blindtext.pdf}{hier}.} \textit{libsum} Blindtext ein.
+\footnote{Sollte bei Ihnen nicht der gleiche Text entstehen, ist das nicht schlimm = das Dokument muss am Schluss nicht v\"ollig exakt wie das Original sein.}
+Zun\"achst ersteres mit dem Befehl \textbackslash{}blindmathtrue und
 \textbackslash{}blindtext:\newline
 
-\blindtext %???
-\par Dies ist ein Blindtext zum testen von Textausgaben. Wer diesen Text liest ist selbst Schuld.
-$\sin^{2}{(\alpha)} + \cos^{2}{(\beta)} = 1$. Der Text gibt lediglich den Grauwert der Schrift an
-\textit{E = mc}$^{2}$. %HIER VERBESSERN!!
-Ist das wirklich so? Ist es gleichg\"ultig ob ich schreibe: \glqq Dies ist ein Blindtext\grqq oder \glqq Huardest gefburn\grqq ? Kjift - mitnichten! Ein Blindtext bietet mir wichtige Informationen.
-\Blindtext %????
+\blindmathtrue
+\blindtext
+\newline
+
+\textbf{Bemerkung 2.} Und dann nutzen wir das lipsum-Paket und den Befehl \textbackslash lipsum[2]
+\newpage
+
+\lipsum[2]
+\newline
+
+\noindent \textbf{Bemerkung 3.} Im Quellcode folgt nun ein eingef\"ugtes Bild
+\footnote{Ihrer Wahl - Sie k\"onnen auch das Paket mwe
+laden und als in includegraphics den \glqq Dateinamen\grqq \textit{example-image} benutzen - das Ergebnis sehen Sie hier im
+tweiten Bild von }% \href[dualpic]{Abb. 2}}
+(dessen Breite gerade $\frac{3}{4}$, also dem 0,75-fachen der Textbreite \textbackslash textwidth entspricht) in einer figure-Umgebung. Wo das dann letztlich erscheint, sind wir alle gespannt.
+
+ 
+\begin{figure}[h]
+ \begin{center}
+  \includegraphics[width=0.75\textwidth]{example-image}
+ \end{center}
+  \caption[Ein Bild aus Florenz]{Hier steht eine lange Bildunterschrift, dass es sich hierbei um ein Foto aus Florenz - gemacht von Ponte Vecchio aus - handelt; im Abbildungsverzeichnis hingegen steht ein k\"urzerer Text}
+  \label{abb1}
+\end{figure}
+
+Wer nichts findet, wie man die Abbildungsunterschriften statt \textit{Abbildung} die Ab\-k\"urzung \textit{Abb} .
+hinbekommt oder wie man auch die Referenzen (mit \textbackslash autoref) die andere Schreibweise erzeugen lassen kann,
+kann sich mal \href{https://texwelt.de/wissen/fragen/991/wie-kann-ich-die-von-autoref-verwendete-bezeichnung-fur-abbildungen-andern}{diesen Beitrag} anschauen. Wem das momentan zu kompliziert zum Nachvollziehen ist, der darf gerne auch \textit{Abbildungen} stehen lassen.
+\newline
+
+\noindent \textbf{Theorem 1.} \textit{Selbst \"uber Florenz sind manchmal Wolken zu sehen}.
+\newline \textit{Beweis}. Das sieht man leicht in \hyperref[abb1]{Abb. 1} 
+\newline
+\newline
+
+Zum Abschluss des Dokuments f\"ugen wir nur noch zwei Bilder nebeneinadner ein. Das ginge zum Einen mittels subfigures in
+der figure-Umgebung. Dabei werden die captions aber nummeriert. Stattdessen benutzen wir in \hyperref[abb2]{Abb. 2} eine
+\href{https://www.namsu.de/Extra/befehle/Minipage.html}{minipage}:
+\newline
+
+\begin{figure}[h]
+\begin{minipage}[c]{0.5\textwidth}
+    \includegraphics[width=\textwidth]{example-image}
+\end{minipage}
+\begin{minipage}[c]{0.5\textwidth}
+    \includegraphics[width=\textwidth]{example-image}
+\end{minipage}
+
+\caption{Zwei Bilder nebeneinander}{Zwei Bilder nebeneinadner}
+\label{abb2}
+\end{figure}
+
+\listoftables
+
+\listoffigures
 
 
 \end{document}
