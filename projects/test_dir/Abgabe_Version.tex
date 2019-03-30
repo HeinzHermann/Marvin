@@ -8,6 +8,31 @@
 \usepackage{amsmath, amsfonts,amssymb,amsthm} %stuff???
 \usepackage{endnotes}
 %Umlaute and shit  Ä/ä, Ö/ö, Ü/ü  ß
+
+\usepackage{filecontents}
+\begin{filecontents*}{\jobname.bib}
+@ARTICLE{example,
+  author  = {Other, Anthony Norman},
+  title   = {Some things I did},
+  year    = {2014},
+  journal = {J.~Irrep. Res.},
+  volume  = {1},
+  number  = {1},
+  pages   = {1-10}
+}
+
+@online{example2,
+  title = {Alliteration},
+  url = {https://de.wikipedia.org/wiki/Alliteration},
+  urldate = {2019-03-12}
+}
+
+
+\end{filecontents*}
+
+
+
+
 \usepackage{hyperref}
 \usepackage{blindtext}
 \usepackage{lipsum}
@@ -15,7 +40,7 @@
 \usepackage{graphicx}
 %\usepackage{cite}
 \usepackage[backend=biber]{biblatex}
-\addbibresource{text_bib.bib}
+\bibliography{\jobname.bib}
 
 \renewcaptionname{ngerman}{\figurename}{Abb.}
 
@@ -38,7 +63,7 @@
     
  \begin{itemize}
      
- \item[] Diese Definition ist dem zugehörigen Wikipedia-Artikel \cite{wikiart}
+ \item[] Diese Definition ist dem zugehörigen Wikipedia-Artikel \cite{example2}
  entnommen.\newline Mit \LaTeX{} kann man u.a. folgende Sachen machen:
  
  \item Aufzählungen und Auflistungen

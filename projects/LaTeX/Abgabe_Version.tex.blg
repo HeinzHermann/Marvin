@@ -1,5 +1,5 @@
-[0] Config.pm:304> INFO - This is Biber 2.12
-[0] Config.pm:307> INFO - Logfile is 'Abgabe_Version.tex.blg'
-[47] biber-MSWIN64:315> INFO - === 
-[454] Utils.pm:209> ERROR - Cannot find control file 'Abgabe_Version.tex.bcf'! - Did latex run successfully on your .tex file before you ran biber?
-[455] Biber.pm:114> INFO - ERRORS: 1
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'Abgabe_Version.tex.blg'
+[27] biber:313> INFO - === Di Mär 26, 2019, 18:01:02
+[49] Utils.pm:185> ERROR - Cannot find control file 'Abgabe_Version.tex.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+[50] Biber.pm:114> INFO - ERRORS: 1

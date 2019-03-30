@@ -1,0 +1,15 @@
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'Abgabe_Version.blg'
+[26] biber:313> INFO - === Di Mär 26, 2019, 18:56:08
+[49] Biber.pm:371> INFO - Reading 'Abgabe_Version.bcf'
+[124] Biber.pm:857> INFO - Found 1 citekeys in bib section 0
+[141] Biber.pm:3981> INFO - Processing section 0
+[150] Biber.pm:4154> INFO - Looking for bibtex format file 'Abgabe_Version.bib' for section 0
+[151] bibtex.pm:1468> INFO - LaTeX decoding ...
+[154] bibtex.pm:1294> INFO - Found BibTeX data source 'Abgabe_Version.bib'
+[166] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[166] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[166] Biber.pm:3809> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[166] Biber.pm:3815> INFO - No sort tailoring available for locale 'de-DE'
+[171] bbl.pm:617> INFO - Writing 'Abgabe_Version.bbl' with encoding 'UTF-8'
+[171] bbl.pm:720> INFO - Output to Abgabe_Version.bbl

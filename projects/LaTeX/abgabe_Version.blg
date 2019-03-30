@@ -1,0 +1,5 @@
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'abgabe_Version.blg'
+[29] biber:313> INFO - === Di Mär 26, 2019, 18:18:16
+[53] Utils.pm:185> ERROR - Cannot find control file 'abgabe_Version.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+[53] Biber.pm:114> INFO - ERRORS: 1
