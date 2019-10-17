@@ -102,9 +102,10 @@ void copy(int *grid, int grid2[][30]) {
 }
 
 
-void looper() {
+void looper(int s_grid[][30], int *grid_d) {
 	int status(1);
 	string input_string;
+	cout << endl;
 	while (status) {
 		cout << "Hello there, please give me an input: ";
 		getline(cin, input_string);
@@ -112,9 +113,23 @@ void looper() {
 		if(input_string == "") {
 			status = 0;
 		}
-		else {
-			cout << "keep going" << endl;
+		else if(input_string == "random") {
+			random(s_grid);
 		}
+		else if(input_string == "copy") {
+			copy(grid_d, s_grid);
+		}
+		else if(input_string == "print s") {
+			print_s(s_grid);
+		}
+		else if(input_string == "print d") {
+			print_d(grid_d);
+		}
+		else {
+			cout << "False, input, please try again" << endl;
+		}
+
+		cout << endl;
 
 	}
 
@@ -131,16 +146,18 @@ int main() {
 	
 	srand(time(0));
 	static int s_grid[30][30];
+	
+	for(int i=0; i<30; i++) {
+
+		for(int j=0; j<30; j++) {
+			s_grid[i][j] = 0;
+		}
+
+	}
+
 	int grid_d[30*30] = {0};
 
-	/*
-	random(s_grid);
-	copy(grid_d, s_grid);	
-	print_s(s_grid);
-	cout << endl;
-	print_d(grid_d);
-	*/
-	looper();
+	looper(s_grid, grid_d);
 	
 
 	return 0;
