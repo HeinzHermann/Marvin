@@ -1,0 +1,94 @@
+=============================================================================================
+Fingerprinting
+1. Ansatz
+Nimm Datenbanken und vergleiche sie einfach
+Problem:
+Fehler bei Transporten
+Dauert extrem Lange
+
+2. Ansatz
+Nimm Fingerprint (deutlich kleiner) und vergleiche die beiden
+Problem:
+Es gibt viele Bitfolgen mit gleichem Fingerabdruck (Bei k Bits --> max 2^k Fingerabdruecke moeglich)
+Also: Wenn Fingerabdruecke ungleich, dann DB ungleich
+      Wenn Fingerabdruecke gleich, dann vielleicht gleich
+
+Erzeuge randomisierte Funktionen, die bei gleichem Input unterschiedliche Fingerabdruecke erzeugen
+
+Wunsch: Gleiche Eingabe soll mit groesserer Wahrscheinlichkeit gleichen Fingerabdruck erzeugen
+Moeglich: Input mod (rand.) Primzahl
+
+Mathe (nachschauen)
+Kann Fingerabdruck um Konstante verlaengern und dafuer Wahrscheinlichkeit falsch zu liegen
+	quadratisch reduzieren
+
+
+=============================================================================================
+Hashing mit Verkettung
+Hashe Element x und setze in verlinkte Liste an stelle mit Hashwert
+
+Universelles Hashing
+(randomisiertes Hashing)
+
+Klasse H von Hashfunktion
+
+h elem H, h * U (U=universum) --> {0,1,2,...,m-1}
+
+Def universel
+Menge H ist c-universell, falls fuer alle x,y elem U mit x /= y gitl, dass
+
+	| { h elem H | h(x) = h(y) } | <= c * |H|/m
+
+= Anzahl an Hashfunktionen die fuer festes x und y gleiches ergebnis liefern ist "durchschnittlich"
+
+h c-universell	| { h elem H | h(x) = h(y)} | / |H| = c/m
+
+
+Was ist sinvolle Klasse von Hashfunktionen:
+(moeglichst leicht auswertbar und haben obere Eigenschaft)
+
+Sei U - {0,1,...,p-1} (Universum) und p prim fuer:
+H = {H_a,b | 0 <= a,b < p, h_a,b(x) = ((ax + b) mod p) mod m} 
+
+Dann ist H c-universell mit c = (roof(p/m)/p/m)^2
+c wird quasi 1
+
+Terme:
+(ax + b) verschiebt Werte in [0,1,...,p-1] mod Bereich
+mod p presst Wert in [0,1,...,p-1] (groesse des Universums)
+mod m presst Ergebnis in [0,1,...,m-1] (also in Zellenpositionen)
+
+h_a,b(x) = h_a,b(y) mit x /= y
+
+1. -->	ax+b = (q + r*m)  mod p
+
+2. -->	ay+b = (q + s*m)  mod p
+
+
+RoRotha...gruppe(?) mod Primzahl p ist Koerper
+
+Gleichungssystem mit 2 Gleichungen und 2 Unbekannten
+
+Gesucht ist nach Hasfunktionen, die 1. und 2. gleichzeitig erfuellen
+
+Abbildung die jedem Vektor (a,b)  [mit h_a,b(x) = h_a,b(y)] dem
+Vektor (q,r,s) mit Eigenschaft (1./2.) erfuellt(?), ist bijektiv
+
+--> Zeigt, das Abbiludng ein Koerper ist (?)
+
+Frage: Wie viele Vektoren (q,r,s) existieren?
+
+q elem [0,...,m-1]
+r,s elem [0,...,roof(p/m)-1]
+
+--> Existieren m * (roof(p/m))^2 viele Vektoren
+
+xxx Math magic
+
+c = (roof(p/m)/(p/m))^2
+
+
+MORE STUFF, BUT HAD TO LISTEN
+
+
+=============================================================================================
