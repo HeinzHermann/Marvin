@@ -1,0 +1,18 @@
+============================================================================================
+Frage des Tages:
+Brauchen 2DFAs exp. mehr Zustaende als 2NFAs?
+(Antwort nicht bekannt, aber sweeping DFAs brauchen sehr viele Zustaende)
+
+
+Sweeping DFAs und eine informationstheoretische untere Schranke (fuer die Anzahl der Zustaende)
+
+Sweeping DFAs:
+Sweeping DFA (SDFA) bearbeiten ihre Eingabe in Phasen, wobei er in einer Phase die Eingabe von
+ganz links nach ganz rechts und darrauffolgend von ganz rechts nach ganz links lesen darf.
+
+
+
+
+============================================================================================
+
+============================================================================================

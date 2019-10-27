@@ -1,0 +1,153 @@
+\documentclass{article}
+
+\usepackage[english]{babel}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage[printwatermark]{xwatermark}
+\usepackage{xcolor}
+\usepackage{todonotes}
+\lstset{language=C}
+
+% Top and Bottom Margin:  1  1/2"; Right and Left Margin:  1  1/2"
+\setlength{\topmargin}{0in}
+\setlength{\oddsidemargin}{0.5in}
+\setlength{\textwidth}{5.5in}
+\pagestyle{empty}
+\setlength{\parskip}{0.2in}
+
+\title{H 00: The Template}
+\author{
+Marvin Glaser \\ \texttt{4424114} \\ \href{mailto:marvin.glaser91@gmail.com}{marvin.glaser91@gmail.com}
+% \and   
+%Student2 \\ \texttt{7654321} \\ \href{mailto:stud2@email.com}{stud2@email.com}
+%\and   
+%Student3 \\ \texttt{0000000} \\ \href{mailto:stud3@email.com}{stud3@email.com}
+}
+
+%\newwatermark[allpages=true,color=gray!20,angle=55,scale=3,xpos=0,ypos=0]{Homework Template}
+
+\begin{document}
+\maketitle
+
+
+
+\section{Task 1}
+
+a)
+
+b)
+
+c)
+
+d)
+
+
+
+
+\section{Task 2}
+
+a)
+The peak performance of a system is categorized by the total usage of all availabe ressources
+the system has to offer. At this point the systems only limitation are of physical limitations
+(example: time information needs to "travel" between different compartments of the system)
+
+b)
+Operations per clock cycle (OPC)
+Operations per second (OPS)
+Parallel processors (PP)
+FLoating point operations (FPO)
+processor clock time (PCT)
+Number of x (\#x)
+
+calculation:
+
+$
+OPC = \#PP * \#ALU(per PP) * \#FPO(per ALU)
+    = 512 *     8	 *     3 
+    = 12288
+$
+
+
+{-->} 12288 Operations per clock cycle
+
+
+$
+OPS = #OPC * PCT
+    = 12288 * 1*10^9 * 1/s
+    = 12.288*10^12
+$
+
+12.288*10^12 operations per second
+
+c)
+It is almost impossible to archieve peak performace on any system. Reasons include the lack of
+perfect parallelization, dependencies between different operations (operation B needs to wait
+on operation A to finish, etc), waiting times between calculations (a processor needs to wait
+for information that is needed to continue a process; expl. cash fault) and many more.
+
+
+\section{Task 3}
+
+a)
+14.2 ms are linear
+--> 57.6 can be parellized
+
+$57.6 / 32 = 1.8 ms$ (since 32 processors are used)
+
+--> $14.2 ms + 1.8 ms = 16 ms$ are needed to solve the problem
+
+$72/16 = 4$
+
+--> Speedup is 4
+
+
+b)
+$
+72 * x + 0.25 * 72 * (1-x) = 32
+
+72 * (x + 0.25 * (1-x)) = 32
+72 * (x + 0.25 - 0.25x) = 32
+72 * (0.75x + 0.25) = 32
+48x + 16 = 32
+48x = 16
+x = 1/3
+$
+
+1/3 der Gesamtzeit (24ms) wird zum initialisieren benoetigt
+
+
+c)
+%REWORK!!!
+$
+maximum speedup with infinite amouts of processors
+(infinite perfectly parallel working processors reduce the parallel runntime to effectively zero)
+= normal runtime / (initialization time + paralellized time)
+= 72 / (24 + lim_{x->0} x) = 72 / (24 + 0) = 3
+$
+
+
+if an infinite number of processors run perfecly parallel then only the initialization time
+remains. Therefore the minimal runtime of the program is 24 ms
+dumb boss sells before he thinks :(
+
+d)
+72 * 1/6 + (1/32) * 72 * 5/6 = x
+
+72 * (1/6 + 5/192) = x
+72 * (32/192 + 5/192) = x
+72 * (37/192) = x
+2664/192 = x
+13.875 = x
+
+--> With the new algorithm the program fnishes in less then 14 ms. The company is saved! YAY!!!
+
+
+
+
+
+------------------------------------
+
+
+
+\end{document}
