@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.13)  27 OCT 2019 20:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.13)  28 OCT 2019 23:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Blatt1.tex
-(./Blatt1.tex
+**Exercise01.tex
+(./Exercise01.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 8 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -266,8 +266,7 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \xwm@boxb=\box30
 \xwm@cnta=\count116
 \xwm@wrt=\write3
- (./Blatt1.xwm)
-\openout3 = `Blatt1.xwm'.
+\openout3 = `Exercise01.xwm'.
 
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -585,62 +584,181 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 \c@@todonotes@numberoftodonotes=\count140
 )
+(/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count141
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2017/12/24 v3.05
+
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count142
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks30
+\ex@=\dimen167
+)
+\c@padzeroesN=\count143
+\fc@tmpcatcode=\count144
+
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2016/01/12
+)
+\@DT@modctr=\count145
+\@ordinalctr=\count146
+\@orgargctr=\count147
+\@strctr=\count148
+\@tmpstrctr=\count149
+\@DT@loopN=\count150
+\@DT@X=\count151
+)
+(/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count152
+\@month=\count153
+\@year=\count154
+\c@HOUR=\count155
+\c@HOURXII=\count156
+\c@MINUTE=\count157
+\c@TOHOUR=\count158
+\c@TOMINUTE=\count159
+\c@SECOND=\count160
+\currenthour=\count161
+\currentminute=\count162
+\currentsecond=\count163
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count164
+\dayofyear=\count165
+\dayofweek=\count166
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks31
+\dt@b=\toks32
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip57
+\enit@outerparindent=\dimen168
+\enit@toks=\toks33
+\enit@inbox=\box42
+\enitdp@description=\count167
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen169
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count168
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count169
+\leftroot@=\count170
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count171
+\DOTSCASE@=\count172
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box43
+\strutbox@=\box44
+\big@size=\dimen170
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count173
+\c@MaxMatrixCols=\count174
+\dotsspace@=\muskip11
+\c@parentequation=\count175
+\dspbrk@lvl=\count176
+\tag@help=\toks34
+\row@=\count177
+\column@=\count178
+\maxfields@=\count179
+\andhelp@=\toks35
+\eqnshift@=\dimen171
+\alignsep@=\dimen172
+\tagshift@=\dimen173
+\tagwidth@=\dimen174
+\totwidth@=\dimen175
+\lineht@=\dimen176
+\@envbody=\toks36
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks37
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) (./Blatt1.aux)
-\openout1 = `Blatt1.aux'.
+)
+No file Exercise01.aux.
+\openout1 = `Exercise01.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-Package hyperref Info: Link coloring OFF on input line 30.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+Package hyperref Info: Link coloring OFF on input line 31.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count141
+\c@section@level=\count180
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
-
-(./Blatt1.out) (./Blatt1.out)
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
 \@outlinefile=\write5
-\openout5 = `Blatt1.out'.
+\openout5 = `Exercise01.out'.
 
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count142
-\scratchdimen=\dimen167
-\scratchbox=\box42
-\nofMPsegments=\count143
-\nofMParguments=\count144
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count145
-\MPscratchDim=\dimen168
-\MPnumerator=\count146
-\makeMPintoPDFobject=\count147
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count181
+\scratchdimen=\dimen177
+\scratchbox=\box45
+\nofMPsegments=\count182
+\nofMParguments=\count183
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count184
+\MPscratchDim=\dimen178
+\MPnumerator=\count185
+\makeMPintoPDFobject=\count186
+\everyMPtoPDFconversion=\toks39
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -658,75 +776,42 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count148
+\c@lstlisting=\count187
 
-ABD: EveryShipout initializing macros
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 32.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 32.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 32.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 65.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 65.
- [1
+ABD: EveryShipout initializing macros [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-! You can't use `macro parameter character #' in math mode.
-l.76 OPS = #
-            OPC * PCT
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.81 12.288*10^
-               12 operations per second
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.82 
-     
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.108 
-      
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.116 
-      
-? 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 177.
+ (./Exercise01.xwm)
 
-Overfull \hbox (272.78474pt too wide) in paragraph at lines 120--127
-[]\OT1/cmr/m/n/10 c) $\OML/cmm/m/it/10 maximumspeedupwithinfiniteamoutsofproces
-sors\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 infiniteperfectlyparallelworkingprocessor
-sreducetheparallelrunntimetoeffectivelyzero\OT1/cmr/m/n/10 ) =
- []
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-[2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 152.
- (./Blatt1.xwm) (./Blatt1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 152.
-Package rerunfilecheck Info: File `Blatt1.out' has not changed.
-(rerunfilecheck)             Checksum: 30427ADD39354D1CFA037E8B5F36F24D;123.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
+(./Exercise01.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
+
+
+Package rerunfilecheck Warning: File `Exercise01.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Exercise01.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  3A2A2200BE481C24AACB0C89103E088E;117.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 177.
  ) 
 Here is how much of TeX's memory you used:
- 21284 strings out of 494871
- 399002 string characters out of 6178382
- 524187 words of memory out of 5000000
- 24302 multiletter control sequences out of 15000+600000
- 7449 words of font info for 27 fonts, out of 8000000 for 9000
+ 23279 strings out of 494871
+ 429836 string characters out of 6178382
+ 578707 words of memory out of 5000000
+ 26246 multiletter control sequences out of 15000+600000
+ 8577 words of font info for 32 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 59i,6n,72p,435b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,11n,72p,1013b,495s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texli
@@ -734,13 +819,14 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmtt12.pfb>
-Output written on Blatt1.pdf (3 pages, 102729 bytes).
+lic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
+2.pfb>
+Output written on Exercise01.pdf (3 pages, 115450 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 37 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 94 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
+ 19 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

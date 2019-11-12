@@ -1,0 +1,74 @@
+==========================================================================================
+Thema: Symmetry breaking
+
+miteinander verbundene Systeme koennen bei gleichen, deterministisch verlaufenden Protokollen
+alle zu gleichem Ergebnis fuer ihre Handlungen kommmen (z.B. greifen alle gleichzeitig auf 
+gleiche Adresse im Speicher zu). Das erzeugt Probleme und muss vermieden werden, indem die
+"symmetrie" der Systeme gebochen wird.
+
+-------
+
+Idenpendent Set
+Finde Set an Knoten (Vertexes V) die ganzen Graphen ueber ihre Kanten (Edges E) abdecken
+
+
+N(u) = { v elem V | {u,v} elem E } = Summe aller verbundenen Knoten
+N(x) = U_(u elem x) N(u)	   = Vereinigung aller Kanten
+dg(u) = |N(u)|
+
+
+Ansatz:
+Jeder Knoten prueft, ob seine Nachbarn im idependent Set sind. Setzts sich dann selbst als
+Teil des independent Set.
+
+Verbesserung:
+- Nur isolierte Knoten werden teil des independent Set
+- Nicht isolierte Knoten markieren sich mit Warhscheinlichekeit 1/(2*deg(v)) fuer independent
+	- sind benachbarte Knoten markiert, dann wird nur der in IS genommen, der hoeheren
+	  Grad hat. Haben beide gleichen Grad, dann wird keiner uebernommen.
+
+	- Loops sind ausgeschlossen, da markierung ueber Wahrscheinlichkeit laeuft. Irgendwann
+	  wird sich nur einer der loopenden Knoten markieren und kommt dann in independent set
+
+
+Gute/schlechte Knoten/Kanten
+
+Guter Knoten: Hat min. deg(v)/3 viele Nachbarn mit Grad hoechstens deg(v)
+Gute Kante: Mind ein Endknoten ist gut
+
+Schlechter Knoten:
+Schlechte Kante:
+
+
+MERKE (!!!!): Wichtige overer Schranke
+
+(1-(1/x))^x <= 1/e 
+
+-----
+
+Lem.:
+Sei v ein guter Knoten mit mind. einem Nachbarn, dann wird v mit Wahrsch. mind (1-e^(-1/6))/2
+in einer Runde aus V entfernt
+
+--> in jeder Runde werden mit konst. Wahscheinlichkeit 
+
+-----
+
+Lem.:
+Mindestens die haelfte aller Kanten sind gut
+
+Eigenschaften schlechter Knoten:
+Hat < deg(v)/3 Nachbarn mit kleinerem Grad
+	--> es gitb mindestens doppelt so viele Nachbarn mit hoeherem Grad als mit kleinerem Grad
+
+
+==========================================================================================
+Markov Ketten
+
+Matrixmultiplikation, etc.
+
+
+==========================================================================================
+
+
+==========================================================================================
