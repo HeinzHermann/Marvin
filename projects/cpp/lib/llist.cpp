@@ -8,82 +8,82 @@ void t_print(T var){
 }	
 
 
-struct t_struct{
+struct link{
 	
 	// variables
 	int numb = 0;
-	t_struct* fp = NULL;
-	t_struct* bp = NULL;
+	link* forward = NULL;
+	link* backward = NULL;
 };
 
-struct s_array{
-	t_struct* init = new t_struct;
-	t_struct* last = init;
+struct llist{
+	link* init = new link;
+	link* last = init;
 	int n_elem = 1;
 
 	
 	// overloads
 	int& operator[](int x){
-		t_struct* np = init;
+		link* nextp = init;
 		for(int i=0; i<x; i++){
-			np = np->fp;	
+			nextp = nextp->forward;	
 		}
-		return np->numb;
+		return nextp->numb;
 	}
 	
 	
 	// methods
 	void add(int new_int){
 		//do stuff
-		t_struct* next;
-	        next = new t_struct;
+		link* next;
+	        next = new link;
 		next->numb = new_int;
-		last->fp = next;
-		next->bp = last;
+		last->forward = next;
+		next->backward = last;
 		last = next;
 		n_elem++;
 	}
 
 	void del(int pos){
 		// navigate to del item
-		t_struct* ip = init;
+		link* current = init;
 		for(int i=0; i<pos; i++){
-			ip = ip->fp;
+			current = current->forward;
 		}
 
 		// add case where only init element exists
-		if ((ip->bp != NULL) and (ip->fp != NULL)) {
+		if ((current->backward != NULL) and (current->forward != NULL)) {
 			// move forwad p of pref elem to next elem
-			ip->bp->fp = ip->fp;
+			current->backward->forward = current->forward;
 			// move backward p of next elem to prev elem
-			ip->fp->bp = ip->bp;
+			current->forward->backward = current->backward;
 			// delete elemt
-			free(ip);
-		} else if((ip->bp != NULL) and (ip->fp == NULL)) {
+			free(current);
+		} else if((current->backward != NULL) and (current->forward == NULL)) {
 			// set forward p of pref elem to NULL
-			ip->bp->fp = NULL;
+			current->backward->forward = NULL;
 			// set last elem to new end
-			this->last = ip->bp;
+			this->last = current->backward;
 			// delete last elemt
-			free(ip);
-		} else if((ip->bp == NULL) and (ip->fp != NULL)) {
+			free(current);
+		} else if((current->backward == NULL) and (current->forward != NULL)) {
 			// set backward p of next elem to NULL
-			ip->fp->bp = NULL;
+			current->forward->backward = NULL;
 			// set new initial element
-			this->init = ip->fp;
+			this->init = current->forward;
 			// delete first elem
-			free(ip);
+			free(current);
 		}
 		n_elem--;
 	}
 	
 	// print entire linked list
 	void print(){
-		t_struct* ip = init;
+		link* current = init;
 		std::cout << "[ ";
 		for(int i=0; i<n_elem; i++){
-			std::cout << ip->numb << " ";
-			ip = ip->fp;	
+			std::cout << current->numb << " ";
+			current = current->forward;	
 		}
 		std::cout << "]" << std::endl;
 
@@ -94,7 +94,7 @@ struct s_array{
 
 int main(int argc, char* argv[]){
 	
-	s_array inta;
+	llist inta;
 	inta[0] = 8;
 	inta.add(5);
 	inta.add(3);
