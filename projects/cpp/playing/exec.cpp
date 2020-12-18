@@ -1,6 +1,6 @@
 #include<iostream>
 #include"planet.h"
-
+#include"clist.h"
 
 int main(int argc, char* argp[]){
 	planet creation;

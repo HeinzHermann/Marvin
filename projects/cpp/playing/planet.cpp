@@ -7,6 +7,7 @@
 
 // class constructor
 planet::planet(){
+	
 	size = 0;
 	population = 0;
 	type = 0;
