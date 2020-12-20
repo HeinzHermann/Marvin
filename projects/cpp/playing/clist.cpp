@@ -108,3 +108,8 @@ void clist<type>::print(){
 
 }
 
+template <typename type>
+int clist<type>::size(){
+	return n_elem;
+}
+

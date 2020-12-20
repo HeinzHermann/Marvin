@@ -32,10 +32,8 @@ struct clist{
 	
 	// methods
 	void add(type);
-
 	void del(int);
-
-	// print entire linked list
+	int size();
 	void print();
 };
 
