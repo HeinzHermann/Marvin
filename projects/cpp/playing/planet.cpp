@@ -1,4 +1,4 @@
-#include"planet.h"
+#include "planet.h"
 #include<iostream>
 
 // =======================================================
@@ -25,6 +25,15 @@ planet::planet(int s, int p, int t){
 	type = t;
 	this->planet_mupd();
 }
+
+// =======================================================
+
+// overloads
+std::ostream& operator<<(std::ostream& os, const planet& plan){
+	os << &plan;
+	return os;
+}
+
 
 // =======================================================
 

@@ -92,7 +92,6 @@ void clist<type>::del(int pos){
 	}
 }
 
-
 template <typename type>
 void clist<type>::print(){
 	link<type>* current = init;
@@ -105,7 +104,6 @@ void clist<type>::print(){
 		}
 	}
 	std::cout << "]" << std::endl;
-
 }
 
 template <typename type>
@@ -113,3 +111,6 @@ int clist<type>::size(){
 	return n_elem;
 }
 
+//template struct clist<planet>;
+//template struct link<planet>;
+//template struct clist<int>;

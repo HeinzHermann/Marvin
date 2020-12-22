@@ -1,3 +1,7 @@
+#ifndef TRADEHUB_H
+#define TRADEHUB_H
+
+
 #include<iostream>
 #include "clist.h"
 #include "planet.h"
@@ -9,9 +13,11 @@ class tradehub{
 		clist<planet> plist;
 		int food_sup;
 		int food_dem;
+		float food_price;
 
 		int mineral_sup;
 		int mineral_dem;
+		float mineral_price;
 
 
 	public:
@@ -24,3 +30,5 @@ class tradehub{
 		void calc_prices();
 
 };
+
+#endif

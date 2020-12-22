@@ -1,7 +1,6 @@
 #include<iostream>
 #include "tradehub.h"
 
-
 using namespace std;
 
 
@@ -12,16 +11,17 @@ tradehub::tradehub(){
 
 	int food_sup = 0;
 	int food_dem = 0;
+	float food_price = 0.f;
 
 	int mineral_sup = 0;
 	int mineral_dem = 0;
+	float mineral_price = 0.f;
 	// add constructor
 }
 
 
 
 // methods
-/*
 void tradehub::market_upd(){
 
 	// reset variables for next tick
@@ -50,10 +50,25 @@ void tradehub::market_upd(){
 		}
 	}
 }
-*/
 
 void tradehub::calc_prices(){
-	// add stuff
+	/*
+	   prices per commodity scaled to one with law of supply and law of demand
+
+	   lin func for demand: price(item) = 1 - (item/max_dem) [goes 1 -> 0]
+	   lin func for supply: price(item) = (item/max_sup)     [goes 0 -> 1]
+
+	   	price(dem)	= price(sup)
+	   <==> item		= 1 / (1/max_dem + 1/max_sup)
+	   
+	   calc price for this tick:
+	   price = item/max_sup = (1 / (1/max_dem + 1/max_sup)) / max_sup
+
+	*/
+	
+	food_price = (1 / (1/food_dem) + (1/food_sup)) / food_sup;
+	mineral_price = (1 / (1/mineral_dem) + (1/mineral_sup)) / mineral_sup;
+
 }
 
 

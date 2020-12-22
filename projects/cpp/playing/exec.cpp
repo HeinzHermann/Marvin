@@ -12,6 +12,7 @@ void print_plan( planet* inpd){
 
 
 int main(int argc, char* argp[]){
+	clist<int> test;
 	planet creation2(5, 2, 3);
 
 	print_plan(&creation2);

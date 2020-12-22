@@ -1,4 +1,8 @@
+#ifndef CLIST_H
+#define CLIST_H
+
 #include<iostream>
+#include"planet.h"
 
 template<typename ltype>
 struct link{
@@ -37,3 +41,4 @@ struct clist{
 	void print();
 };
 
+#endif

@@ -1,3 +1,6 @@
+#ifndef PLANET_H
+#define PLANET_H
+
 #include<iostream>
 
 
@@ -21,6 +24,7 @@ class planet {
 	public:
 		planet();
 		planet(int, int, int);
+		
 
 		// methods
 		const int& gsize();
@@ -34,6 +38,10 @@ class planet {
 		void planet_prod();
 		void planet_pop();
 
+
 };
 
+//overloads
+std::ostream& operator<<(std::ostream&, const planet&);
 
+#endif
