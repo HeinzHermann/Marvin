@@ -4,6 +4,26 @@
 #include<iostream>
 
 
+struct ressource{
+
+
+	ressource();
+	ressource(int, int, int);
+
+	~ressource();
+
+	int stored;
+	int produced;
+	int need;
+
+	ressource* next;
+
+
+	void add(int, int, int);
+
+};
+
+
 class planet {
 	private:
 		// general attributes

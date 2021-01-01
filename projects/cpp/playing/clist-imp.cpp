@@ -7,5 +7,4 @@
 template struct clist<int>;
 template struct clist<planet>;
 
-
 #endif

@@ -3,6 +3,36 @@
 
 // =======================================================
 // =======================================================
+// ===== struct
+
+ressource::ressource(){
+	stored = 0;
+	produced = 0;
+	need = 0;
+	next = NULL;
+}
+
+
+ressource::ressource(int stored_, int produced_, int need_){
+	stored = stored_;
+	produced = produced_;
+	need = need_;
+	next = NULL;
+}
+
+ressource::~ressource(){
+	delete(next);
+}
+
+
+void ressource::add(int stored_, int produced_, int need_){
+	next = new ressource(stored_, produced_, need_);
+}
+
+
+// =======================================================
+// =======================================================
+// ===== class
 
 // definitions
 
